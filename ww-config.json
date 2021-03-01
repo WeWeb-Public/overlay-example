@@ -3,6 +3,32 @@
     "editor": {
         "label": {
             "en": "Card"
+        },
+        "settingsOptions": [
+            {
+                "label": {
+                    "en": "Card"
+                },
+                "fields": {
+                    "link": {
+                        "type": "Text",
+                        "label": {
+                            "en": "Button Link"
+                        },
+                        "bindable": true
+                    }
+                }
+            }
+        ],
+        "otherOptions": {
+            "profileName": {
+                "type": "Text",
+                "label": {
+                    "en": "profileName"
+                },
+                "bindable": true,
+                "multiLang": true
+            }
         }
     }
 }
